@@ -1,0 +1,13 @@
+.main_body
+{
+    display: flex;
+}
+
+.sidebar
+{
+    width: 20%;
+}
+.page
+{
+    width: 80%;
+}

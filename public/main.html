@@ -1,0 +1,71 @@
+<!doctype html>
+<html ng-app="myApp">
+<head>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.7/angular.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.7/angular-route.min.js"></script>
+</head>
+<body>
+
+        <!-- header starts -->
+    <div class="header">
+        <div class="header__left">
+            <img src="./assets/logo.png" alt="" />
+            <div class="header__input">
+                <input type="text" placeholder="Search People" ng-model="SearchFilters"/>
+            </div>
+        </div>
+
+        <div class="header__right">
+            <div class="header__info">
+                <img src="./assets/Mask group.png" alt="" class="user__avatar" />
+                <h4>Debanjan Basu</h4>
+            </div>
+        </div>
+    </div>
+
+    <!-- main body starts -->
+    <div class="main__body">
+        <!-- sidebar starts -->
+        <div class="sidebar">
+            <div class="sidebarRow">
+                <img src="./assets/Mask group.png" alt="" class="user__avatar" />
+                <h4>Debanjan Basu</h4>
+            </div>
+
+            <a href="#/">
+            <div class="sidebarRow">
+                <span class="material-icons"> Home</span>
+            </div>
+            </a>
+
+            <a href="#message">
+            <div class="sidebarRow">
+                <span class="material-icons">Messages </span>
+            </div>
+            </a>
+            
+            <a href="#profile">
+
+            <div class="sidebarRow">
+                <span class="material-icons"> Profile Page </span>
+            </div>
+
+            </a>
+
+            <a href="#doubt">
+            <div class="sidebarRow">
+                <span class="material-icons"> Doubt Clearing </span>
+            </div>
+             </a>
+
+        </div>
+
+        <div class="page">
+            <ng-view>
+    
+            </ng-view>
+        </div>
+
+<script src="app.js"></script>
+</body>
+</html>
