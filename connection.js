@@ -3,8 +3,8 @@ const con = mysql.createConnection({
 
     host: "localhost",
     user: "root",
-    password: "aniket",
-    database: "Vote",
+    password: "12345",
+    database: "lab10",
     port: 3306
 });
 

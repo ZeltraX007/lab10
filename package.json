@@ -13,5 +13,14 @@
     "mysql": "^2.18.1",
     "nodemon": "^2.0.20"
   },
-  "description": ""
+  "description": "",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "bugs": {
+    "url": ""
+  },
+  "homepage": ""
 }
